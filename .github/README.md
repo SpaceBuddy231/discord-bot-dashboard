@@ -68,14 +68,8 @@ Comprehensive analytics with interactive charts
 
 ## Support
 
-- 📧 Email: support@yourdomain.com
-- 💬 Discord: [Join Server](https://discord.gg/your-invite)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/discord-bot-dashboard/issues)
+- 📧 Email: jo_buerger@outlook.de
 
 ## License
 
 MIT License - see [LICENSE](./LICENSE) for details
-
----
-
-**Built with ❤️ for the Discord community**
