@@ -46,15 +46,6 @@ npm run dev:api
 npm run dev:frontend
 ```
 
-## Documentation
-
-- [Full README](./README.md) - Complete project documentation
-- [Quick Start Guide](./QUICKSTART.md) - Get started in 5 minutes
-- [Deployment Guide](./DEPLOYMENT.md) - Deploy to production
-- [Fallback Mode](./FALLBACK.md) - Run without databases
-- [Contributing](./CONTRIBUTING.md) - Contribution guidelines
-- [Changelog](./CHANGELOG.md) - Version history
-
 ## Screenshots
 
 ### Dashboard Overview
