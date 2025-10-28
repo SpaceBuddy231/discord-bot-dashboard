@@ -8,8 +8,6 @@ A production-ready Discord bot with web dashboard, analytics, auto-moderation, a
 
 - 🌐 **Live Demo**: [View Demo](https://dist-grwjpu0y3-spacebuddy231-7370s-projects.vercel.app)
 - 📖 **Documentation**: [Read Docs](./README.md)
-- 🚀 **Quick Start**: [Get Started](./QUICKSTART.md)
-- 🐛 **Report Issues**: [GitHub Issues](https://github.com/yourusername/discord-bot-dashboard/issues)
 
 ## Key Features
 
