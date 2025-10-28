@@ -8,19 +8,5 @@
         "distDir": "frontend/dist"
       }
     }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "https://your-api-backend.herokuapp.com/api/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "frontend/$1"
-    }
-  ],
-  "env": {
-    "VITE_API_URL": "@api_url",
-    "VITE_WEBSOCKET_URL": "@websocket_url"
-  }
+  ]
 }

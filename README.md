@@ -1,25 +1,27 @@
 # 🤖 Discord Bot Management Dashboard
 
-Ein vollständiges Discord Bot Management System mit erweiterten Analytics, Auto-Moderation und einem modernen Web-Dashboard. Entwickelt für Multi-Server-Support mit GDPR-Compliance für den deutschen Markt.
+A comprehensive Discord Bot Management System with advanced analytics, auto-moderation, and a modern web dashboard. Built for multi-server support with production-ready features.
 
-> 💡 **NEU**: Läuft jetzt **OHNE externe Datenbanken**! Perfekt für lokales Development.  
-> Siehe [QUICKSTART.md](./QUICKSTART.md) für sofortigen Start ohne MongoDB/Redis.
+> 💡 **NEW**: Works **WITHOUT external databases**! Perfect for local development.  
+> See [QUICKSTART.md](./QUICKSTART.md) for instant setup without MongoDB/Redis.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Node](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg)
 ![TypeScript](https://img.shields.io/badge/typescript-5.3-blue.svg)
+![React](https://img.shields.io/badge/react-18.2-blue.svg)
+![Discord.js](https://img.shields.io/badge/discord.js-14.x-5865f2.svg)
 
-## 📋 Inhaltsverzeichnis
+## 📋 Table of Contents
 
 - [Features](#-features)
-- [Technologie-Stack](#-technologie-stack)
-- [Voraussetzungen](#-voraussetzungen)
+- [Tech Stack](#-tech-stack)
+- [Prerequisites](#-prerequisites)
 - [Installation](#-installation)
-- [Konfiguration](#-konfiguration)
-- [Entwicklung](#-entwicklung)
+- [Configuration](#-configuration)
+- [Development](#-development)
 - [Deployment](#-deployment)
-- [API Dokumentation](#-api-dokumentation)
-- [Projektstruktur](#-projektstruktur)
+- [API Documentation](#-api-documentation)
+- [Project Structure](#-project-structure)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -114,14 +116,14 @@ Ein vollständiges Discord Bot Management System mit erweiterten Analytics, Auto
 
 ## 🚀 Installation
 
-### 1. Repository klonen
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/yourusername/discord-bot-dashboard.git
 cd discord-bot-dashboard
 ```
 
-### 2. Dependencies installieren
+### 2. Install Dependencies
 
 ```bash
 # Root dependencies
@@ -131,7 +133,7 @@ npm install
 npm install --workspaces
 ```
 
-### 3. Umgebungsvariablen einrichten
+### 3. Setup Environment Variables
 
 ```bash
 # Kopiere die Beispiel-Datei

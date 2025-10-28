@@ -1,8 +1,8 @@
 # Contributing Guide
 
-Vielen Dank für dein Interesse, zu diesem Projekt beizutragen! 🎉
+Thank you for your interest in contributing to this project! 🎉
 
-## 📋 Inhaltsverzeichnis
+## 📋 Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
 - [Wie kann ich beitragen?](#wie-kann-ich-beitragen)

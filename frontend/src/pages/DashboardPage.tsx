@@ -55,7 +55,7 @@ export default function DashboardPage() {
             }`}
           >
             <LayoutDashboard className="w-5 h-5" />
-            Übersicht
+            Overview
           </button>
 
           <button
@@ -103,7 +103,7 @@ export default function DashboardPage() {
             }`}
           >
             <Settings className="w-5 h-5" />
-            Einstellungen
+            Settings
           </button>
         </nav>
 
@@ -113,7 +113,7 @@ export default function DashboardPage() {
             className="w-full flex items-center gap-3 px-4 py-3 text-gray-400 hover:bg-gray-800 hover:text-white rounded-lg transition-colors"
           >
             <LogOut className="w-5 h-5" />
-            Abmelden
+            Logout
           </button>
         </div>
       </aside>
@@ -125,7 +125,7 @@ export default function DashboardPage() {
           <div className="flex items-center justify-center gap-2">
             <span className="text-xl">⚠️</span>
             <p className="text-yellow-500 font-semibold">
-              DEMO-ANSICHT - Alle Daten sind Mock-Daten ohne echte Bot-Verbindung
+              DEMO VIEW - All data is mock data without real bot connection
             </p>
           </div>
         </div>
@@ -135,20 +135,20 @@ export default function DashboardPage() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold text-white">
-                {activeTab === 'overview' && 'Dashboard Übersicht'}
-                {activeTab === 'analytics' && 'Analytics & Statistiken'}
+                {activeTab === 'overview' && 'Dashboard Overview'}
+                {activeTab === 'analytics' && 'Analytics & Statistics'}
                 {activeTab === 'moderation' && 'Moderation'}
                 {activeTab === 'commands' && 'Custom Commands'}
-                {activeTab === 'settings' && 'Einstellungen'}
+                {activeTab === 'settings' && 'Settings'}
               </h1>
               <p className="text-gray-400 text-sm mt-1">
-                Verwalte deine Discord-Server (Demo)
+                Manage your Discord servers (Demo)
               </p>
             </div>
 
             <div className="flex items-center gap-2 px-4 py-2 bg-orange-500/10 border border-orange-500/20 rounded-lg">
               <div className="w-2 h-2 bg-orange-500 rounded-full animate-pulse"></div>
-              <span className="text-sm text-orange-500">Demo-Modus (Mock-Daten)</span>
+              <span className="text-sm text-orange-500">Demo Mode (Mock Data)</span>
             </div>
           </div>
         </header>
@@ -161,21 +161,21 @@ export default function DashboardPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="bg-[#2b2d31] border border-gray-800 rounded-lg p-6">
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-gray-400 text-sm">Mitglieder</span>
+                    <span className="text-gray-400 text-sm">Members</span>
                     <Users className="w-5 h-5 text-[#5865f2]" />
                   </div>
                   <div className="text-3xl font-bold text-white">
-                    {mockStats.totalMembers.toLocaleString('de-DE')}
+                    {mockStats.totalMembers.toLocaleString('en-US')}
                   </div>
                   <div className="flex items-center gap-1 mt-2">
                     <TrendingUp className="w-4 h-4 text-green-500" />
-                    <span className="text-sm text-green-500">+12% diese Woche</span>
+                    <span className="text-sm text-green-500">+12% this week</span>
                   </div>
                 </div>
 
                 <div className="bg-[#2b2d31] border border-gray-800 rounded-lg p-6">
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-gray-400 text-sm">Aktiv heute</span>
+                    <span className="text-gray-400 text-sm">Active today</span>
                     <Activity className="w-5 h-5 text-[#5865f2]" />
                   </div>
                   <div className="text-3xl font-bold text-white">
@@ -183,36 +183,36 @@ export default function DashboardPage() {
                   </div>
                   <div className="text-sm text-gray-400 mt-2">
                     {Math.round((mockStats.activeToday / mockStats.totalMembers) * 100)}%
-                    Aktivität
+                    Activity
                   </div>
                 </div>
 
                 <div className="bg-[#2b2d31] border border-gray-800 rounded-lg p-6">
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-gray-400 text-sm">Nachrichten 24h</span>
+                    <span className="text-gray-400 text-sm">Messages 24h</span>
                     <MessageSquare className="w-5 h-5 text-[#5865f2]" />
                   </div>
                   <div className="text-3xl font-bold text-white">
-                    {mockStats.messages24h.toLocaleString('de-DE')}
+                    {mockStats.messages24h.toLocaleString('en-US')}
                   </div>
-                  <div className="text-sm text-gray-400 mt-2">Durchschnitt: 65/h</div>
+                  <div className="text-sm text-gray-400 mt-2">Average: 65/h</div>
                 </div>
 
                 <div className="bg-[#2b2d31] border border-gray-800 rounded-lg p-6">
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-gray-400 text-sm">Mod-Aktionen</span>
+                    <span className="text-gray-400 text-sm">Mod Actions</span>
                     <Shield className="w-5 h-5 text-[#5865f2]" />
                   </div>
                   <div className="text-3xl font-bold text-white">
                     {mockStats.moderationActions}
                   </div>
-                  <div className="text-sm text-gray-400 mt-2">Letzte 7 Tage</div>
+                  <div className="text-sm text-gray-400 mt-2">Last 7 days</div>
                 </div>
               </div>
 
               {/* Server List */}
               <div className="bg-[#2b2d31] border border-gray-800 rounded-lg p-6">
-                <h2 className="text-xl font-bold text-white mb-4">Deine Server</h2>
+                <h2 className="text-xl font-bold text-white mb-4">Your Servers</h2>
                 <div className="space-y-3">
                   {mockGuilds.map((guild) => (
                     <div
@@ -224,12 +224,12 @@ export default function DashboardPage() {
                         <div>
                           <div className="font-semibold text-white">{guild.name}</div>
                           <div className="text-sm text-gray-400">
-                            {guild.members.toLocaleString('de-DE')} Mitglieder
+                            {guild.members.toLocaleString('en-US')} Members
                           </div>
                         </div>
                       </div>
                       <button className="px-4 py-2 bg-[#5865f2] hover:bg-[#4752c4] text-white rounded-md transition-colors">
-                        Verwalten
+                        Manage
                       </button>
                     </div>
                   ))}
@@ -241,19 +241,19 @@ export default function DashboardPage() {
                 <AlertCircle className="w-5 h-5 text-yellow-500 flex-shrink-0 mt-0.5" />
                 <div>
                   <div className="font-semibold text-yellow-500 mb-1">
-                    🎨 UI/UX Demo-Version
+                    🎨 UI/UX Demo Version
                   </div>
                   <div className="text-sm text-gray-400">
-                    Dies ist eine <strong className="text-yellow-400">reine Frontend-Demonstration</strong> ohne
-                    Backend-Anbindung. Alle angezeigten Server, Statistiken und Daten sind
-                    Mock-Daten. Ein echter Bot muss noch konfiguriert werden - siehe{' '}
+                    This is a <strong className="text-yellow-400">pure frontend demonstration</strong> without
+                    backend connection. All displayed servers, statistics and data are
+                    mock data. A real bot still needs to be configured - see{' '}
                     <a
                       href="/QUICKSTART.md"
                       className="text-yellow-500 hover:underline"
                     >
                       QUICKSTART.md
                     </a>{' '}
-                    für die Einrichtung.
+                    for setup instructions.
                   </div>
                 </div>
               </div>
@@ -264,13 +264,13 @@ export default function DashboardPage() {
             <div className="bg-[#2b2d31] border border-yellow-500/20 rounded-lg p-8 text-center">
               <div className="text-6xl mb-4">🚧</div>
               <div className="text-yellow-500 font-semibold mb-2 text-xl">
-                Demo-Seite in Entwicklung
+                Demo Page Under Development
               </div>
               <div className="text-gray-400 mb-4">
-                Diese Seite ist Teil der UI-Demonstration und noch nicht implementiert.
+                This page is part of the UI demonstration and not yet implemented.
               </div>
               <p className="text-sm text-gray-500">
-                Nutze das Sidebar-Menü, um zur Übersicht zurückzukehren.
+                Use the sidebar menu to return to the overview.
               </p>
             </div>
           )}

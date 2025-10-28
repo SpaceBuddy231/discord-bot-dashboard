@@ -32,7 +32,7 @@ export default function HomePage() {
       <div className="bg-yellow-500/10 border-y border-yellow-500/20 py-3">
         <div className="container mx-auto px-4 text-center">
           <p className="text-yellow-500 font-semibold">
-            ⚠️ DEMO-VERSION - Dies ist eine Vorschau-Seite ohne echte Funktionen
+            ⚠️ DEMO VERSION - This is a preview page with no real functionality
           </p>
         </div>
       </div>
@@ -42,11 +42,11 @@ export default function HomePage() {
         <div className="text-center max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#5865f2]/10 border border-[#5865f2]/20 rounded-full mb-6">
             <Zap className="w-4 h-4 text-[#5865f2]" />
-            <span className="text-sm text-[#5865f2]">Jetzt komplett ohne externe Datenbanken!</span>
+            <span className="text-sm text-[#5865f2]">Now works completely without external databases!</span>
           </div>
 
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-            Professionelles
+            Professional
             <span className="text-[#5865f2]"> Discord Bot</span>
             <br />
             Management Dashboard
@@ -54,13 +54,13 @@ export default function HomePage() {
 
           <div className="inline-block bg-yellow-500/20 border border-yellow-500/50 rounded-lg px-6 py-3 mb-6">
             <p className="text-yellow-300 font-bold text-lg">
-              🎨 UI/UX Demo - Keine echten Bot-Funktionen implementiert
+              🎨 UI/UX Demo - No real bot functionality implemented
             </p>
           </div>
 
           <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-            Verwalte mehrere Discord-Server mit erweiterten Analytics, Auto-Moderation
-            und einem modernen Web-Interface. GDPR-konform für den deutschen Markt.
+            Manage multiple Discord servers with advanced analytics, auto-moderation
+            and a modern web interface. GDPR compliant for the German market.
           </p>
 
           <div className="flex items-center justify-center gap-4 mb-12">
@@ -69,7 +69,7 @@ export default function HomePage() {
               className="px-8 py-4 bg-[#5865f2] hover:bg-[#4752c4] text-white rounded-lg font-semibold transition-colors inline-flex items-center gap-2"
             >
               <Bot className="w-5 h-5" />
-              Jetzt starten
+              Get Started
             </Link>
             <a
               href="https://github.com/yourusername/discord-bot-dashboard"
@@ -85,7 +85,7 @@ export default function HomePage() {
           {/* Status Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-500/10 border border-green-500/20 rounded-lg">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            <span className="text-sm text-green-500">Bot läuft im In-Memory Modus</span>
+            <span className="text-sm text-green-500">Bot running in In-Memory mode</span>
           </div>
         </div>
       </div>
@@ -99,8 +99,8 @@ export default function HomePage() {
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">Auto-Moderation</h3>
             <p className="text-gray-400">
-              Intelligente Spam-Erkennung, Profanity Filter und automatische
-              Moderations-Aktionen zum Schutz deiner Community.
+              Intelligent spam detection, profanity filter and automatic
+              moderation actions to protect your community.
             </p>
           </div>
 
@@ -110,8 +110,8 @@ export default function HomePage() {
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">Analytics & Insights</h3>
             <p className="text-gray-400">
-              Detaillierte Statistiken über Member-Aktivität, Wachstum und
-              Engagement mit interaktiven Charts.
+              Detailed statistics about member activity, growth and
+              engagement with interactive charts.
             </p>
           </div>
 
@@ -121,8 +121,8 @@ export default function HomePage() {
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">Custom Commands</h3>
             <p className="text-gray-400">
-              Erstelle eigene Commands mit Variablen, Bedingungen und
-              Rich-Responses im visuellen Editor.
+              Create your own commands with variables, conditions and
+              rich responses in the visual editor.
             </p>
           </div>
         </div>
@@ -131,8 +131,8 @@ export default function HomePage() {
       {/* Tech Stack */}
       <div className="container mx-auto px-4 py-20">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-white mb-4">Moderner Tech-Stack</h2>
-          <p className="text-gray-400">Gebaut mit den neuesten Technologien</p>
+          <h2 className="text-3xl font-bold text-white mb-4">Modern Tech Stack</h2>
+          <p className="text-gray-400">Built with the latest technologies</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
@@ -160,14 +160,14 @@ export default function HomePage() {
       <footer className="border-t border-gray-800 py-8">
         <div className="container mx-auto px-4 text-center text-gray-400">
           <p>
-            © 2025 Discord Bot Dashboard. Made with ❤️ for the German Discord community.
+            © 2025 Discord Bot Dashboard. Made with ❤️ for the Discord community.
           </p>
           <p className="text-sm mt-2">
-            💡 Läuft ohne MongoDB/Redis? Siehe{' '}
+            💡 Running without MongoDB/Redis? See{' '}
             <a href="/docs/fallback" className="text-[#5865f2] hover:underline">
               FALLBACK.md
             </a>{' '}
-            für Details.
+            for details.
           </p>
         </div>
       </footer>

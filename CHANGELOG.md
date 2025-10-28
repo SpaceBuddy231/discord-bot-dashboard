@@ -1,25 +1,27 @@
 # Changelog
 
-Alle wichtigen Änderungen an diesem Projekt werden in dieser Datei dokumentiert.
+All notable changes to this project will be documented in this file.
 
-Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.0.0/),
-und dieses Projekt folgt [Semantic Versioning](https://semver.org/lang/de/).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
-### Geplante Features
-- [ ] AI-basierte Content Moderation mit OpenAI
-- [ ] Custom Command Builder UI im Dashboard
-- [ ] Analytics Export als PDF
-- [ ] Email Reports (täglich/wöchentlich)
+### Planned Features
+- [ ] AI-powered Content Moderation with OpenAI
+- [ ] Visual Custom Command Builder in Dashboard
+- [ ] Analytics Export as PDF
+- [ ] Email Reports (daily/weekly)
 - [ ] Two-Factor Authentication
-- [ ] Multi-Language Support (EN/DE)
+- [ ] Multi-Language Support (EN/DE/FR/ES)
 - [ ] Premium Features & Stripe Integration
 - [ ] Voice Channel Analytics
 - [ ] Reaction Role System
 - [ ] Ticket System
 - [ ] Welcome Message Builder
 - [ ] Auto-Role System
+- [ ] Music Bot Integration
+- [ ] Leveling System
 
 ## [1.0.0] - 2025-10-28
 
